@@ -61,18 +61,3 @@ namespace Quản_lý_bán_hàng
             this.Close();
         }
        
-        private void txtDN_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void formdoipass_Load(object sender, EventArgs e)
-        {
-            conn.Open();
-            Formdangnhap dn = new Formdangnhap();
-           
-        }
-        
-
-    }
-} 
