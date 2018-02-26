@@ -64,17 +64,7 @@ namespace Quản_lý_bán_hàng
         
         }
 
-        private void chkmatkhau_CheckedChanged(object sender, EventArgs e)
-        {
-            if (chkmatkhau.Checked)
-            {
-                txtMK.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                txtMK.UseSystemPasswordChar = true;
-            }
-        }
+
         
         
         
