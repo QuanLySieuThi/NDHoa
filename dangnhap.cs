@@ -47,15 +47,6 @@ namespace Quản_lý_bán_hàng
                 this.Close();//thêm cái này vao.khi show frm mới thì đóng frm cũ
         }
             
-         else
-        {
-            MessageBox.Show(" Kiểm tra lại tên đăng nhập hoặc mật khẩu"," Chú ý");
-        }
-
-         
-
-
-        }
 
         private void btnthoat_Click(object sender, EventArgs e)
         {
