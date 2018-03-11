@@ -45,18 +45,7 @@ namespace Quản_lý_bán_hàng
             this.Hide();
             objfrmMain.ShowDialog();
                 this.Close();//thêm cái này vao.khi show frm mới thì đóng frm cũ
-        }
-            
-
-        private void btnthoat_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Bạn chắc chắn muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
-            this.Close();
-        
-        }
-
-
-        
+        }      
         
         
     }
