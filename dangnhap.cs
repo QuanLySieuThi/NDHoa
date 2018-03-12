@@ -14,7 +14,6 @@ namespace Quản_lý_bán_hàng
 
     public partial class Formdangnhap : Form
     {
-
         
         public Formdangnhap()
         {
