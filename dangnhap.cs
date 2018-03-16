@@ -11,7 +11,6 @@ using System.Data.SqlClient;
 
 namespace Quản_lý_bán_hàng
 {
-
     public partial class Formdangnhap : Form
     {
         
