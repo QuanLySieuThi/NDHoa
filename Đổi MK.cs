@@ -27,7 +27,6 @@ namespace Quản_lý_bán_hàng
             sda.Fill(ds);
             string update = "UPDATE tblDangNhap SET MatKhau='" + txtnewpass.Text + "' WHERE TenDangNhap='" + txtTenDN.Text + "'";
             Boolean kt = false;
-           
             for (int i = 0; i < ds.Tables[0].Rows.Count; ++i)
             {
                 if ((txtTenDN.Text == ds.Tables[0].Rows[i][0].ToString()) && (txtMK.Text == ds.Tables[0].Rows[i][1].ToString()))
