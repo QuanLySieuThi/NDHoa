@@ -17,7 +17,6 @@ namespace Quản_lý_bán_hàng
         public Formdangnhap()
         {
             InitializeComponent();
-            
         }
 
         private void Fdangnhap_Load(object sender, EventArgs e)
