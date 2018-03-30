@@ -38,8 +38,7 @@ namespace Quản_lý_bán_hàng
                     MessageBox.Show("Đổi mật khẩu thành công!");
                     //this.Close();//tất cả form đã đóng..đóng thêm cái này là đóng chương trình luôn
                 }
-            }
-
+            } 
             if (kt == false)
                 MessageBox.Show("Bạn nhập sai tên đăng nhập hoặc mật khẩu!");
         
