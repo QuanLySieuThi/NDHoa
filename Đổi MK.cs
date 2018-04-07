@@ -46,16 +46,11 @@ namespace Quản_lý_bán_hàng
             if (txtMK.TextLength == 0) MessageBox.Show("Mật khẩu không để trống");
             else if (txtnewpass.TextLength == 0) MessageBox.Show("Nhập lại Pass Mới.");
            
-         
-
-            
+              
         }
 
         private void btnthoát_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            frmMain fhdmk = new frmMain();
-            fhdmk.ShowDialog();
-            this.Close();
+            
         }
        
