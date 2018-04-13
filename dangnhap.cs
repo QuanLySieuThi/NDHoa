@@ -19,11 +19,7 @@ namespace Quản_lý_bán_hàng
             InitializeComponent();
         }
 
-        private void Fdangnhap_Load(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void btndangnhap_Click(object sender, EventArgs e)
         {
                        
