@@ -48,9 +48,4 @@ namespace Quản_lý_bán_hàng
            
               
         }
-
-        private void btnthoát_Click(object sender, EventArgs e)
-        {
-            
-        }
        
